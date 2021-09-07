@@ -1,3 +1,6 @@
+# Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+# SPDX-License-Identifier: MIT-0
+
 from airflow import DAG, settings, secrets
 from airflow.operators.python_operator import PythonOperator
 #from airflow.contrib.secrets.aws_secrets_manager import SecretsManagerBackend
